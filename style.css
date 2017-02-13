@@ -1,0 +1,33 @@
+.house {
+	max-width: 500px;
+	height: 600px;
+	padding: 50px 0 0 200px;
+}
+.one_floor, .two_floor, .three_floor, .four_floor, .five_floor {
+	width: 50px;
+	height: 70px;
+	padding: 4px;
+	margin: 5px;
+	background: blue;
+	position: relative;
+	clear:
+}
+#style_border {
+	border: 1px solid rgb(12, 25, 95);
+}
+.downstairs {
+	width: 50px;
+	height: 70px;
+	padding: 4px;
+	margin: 0 5px 0 5px;
+	background: red;
+	position: absolute;
+}
+.control_function {
+	max-width: 500px;
+	height: 600px;
+	padding: 50px 0 0 200px;
+}
+div.house, div.control_function {
+	float: left;
+}
