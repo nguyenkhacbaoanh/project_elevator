@@ -1,0 +1,25 @@
+#container {
+  width: 50px;
+  height: 400px;
+  background-color: green;
+  position: relative;
+}
+#elevator {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  top: 100%;
+  transition: all 1s ease;
+}
+#stage {
+  margin: 25% auto;
+  text-align: center;
+  display: block;
+}
+.light {
+  background-color: yellow;
+}
+button {
+  border-radius: 20%;
+}
